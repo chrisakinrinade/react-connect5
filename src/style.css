@@ -1,0 +1,38 @@
+.header-container h1,p {
+    text-align: center;
+}
+.board-row {
+    height: 32px;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    border-top: 2px solid #8c8c8c;
+    border-left: 2px solid #8c8c8c;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border-bottom: 2px solid #8c8c8c;
+    border-right: 2px solid #8c8c8c;
+    background: #F6CACA;
+    display: inline-block;
+}
+
+.square-taken-1 {
+    background: aqua;
+}
+
+.square-taken-2 {
+    background: peru;
+}
+
+.square-nottaken:hover {
+    cursor: pointer;
+    background: rgba(246,202,202,0.7);
+}
